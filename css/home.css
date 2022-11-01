@@ -1,0 +1,105 @@
+@charset 'utf-8';
+
+#div-bem-vindo {
+    background-color: #3FC93C;
+}
+
+#div-bem-vindo h1 {
+    color: white;
+    font-weight: bold;
+    margin-top: 18%;
+}
+
+#div-form .container {
+    margin-left: 3%;
+}
+
+#site-name {
+    margin-top: 133px;
+}
+
+#site-name p {
+    color: #3FC93C;
+}
+
+form label {
+    font-weight: bold;
+}
+
+.my-form-group {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    padding-right: 40px;
+}
+
+.custom-button-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+  
+.input-icon {
+    position: absolute;
+    left: 10px;
+}
+
+.password-container {
+    margin-top: 2%;
+}
+
+.forget-container {
+    margin-top: 5%;
+    text-align: end;
+}
+
+#forget-my-password {
+    cursor: pointer;
+    color: #3FC93C;
+}
+
+.button-container {
+    margin-top: 6%;
+}
+
+.btn-success {
+    border: 1px solid #3FC93C;
+    background-color: #3FC93C;
+    width: 100%;
+    font-size: 20pt;
+    padding: 0;
+}
+
+@media only screen and (min-width : 500px)
+{
+    #div-bem-vindo h1 {
+        color: white;
+        font-weight: bold;
+        margin-top: 18%;
+        font-size: 95pt;
+    }
+
+    #div-bem-vindo {
+        height: 100vh;
+    }
+
+    #site-name {
+        font-size: 10pt;
+    }
+}
+
+@media only screen and (max-width : 499px)
+{
+    #div-bem-vindo h1 {
+        color: white;
+        font-weight: bold;
+        margin-top: 18%;
+        font-size: 5em;
+    }
+
+    #site-name h2 p2 {
+        font-size: 5em;
+    }
+}
